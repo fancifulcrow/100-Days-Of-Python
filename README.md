@@ -28,3 +28,6 @@
 - Day 024 - Working with Local Files and Directories
 - Day 025 - Working with CSV Files and Analyzing Data with Pandas
 - Day 026 - List and Dictionary Comprehension
+- Day 027 - Graphical User Interfaces with Tkinter and Function Arguments
+- Day 028 - Building a Pomodoro App
+- Day 029 - Building a Password Manager
