@@ -22,6 +22,7 @@
 - except: Do this if there was an exception
 - else: Do this if there were no exception
 - finally: DO this no matter what happens
+
 - raise: to raise our own exceptions
 """
 
