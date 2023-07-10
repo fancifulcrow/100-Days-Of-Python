@@ -89,10 +89,7 @@ canvas.create_image(100, 112, image=tomato_img) # Adjust the image position to b
 # display the timer
 timer_text = canvas.create_text(100, 130, text="00:00", fill="white", font=(FONT_NAME, 35, "bold"))
 
-add_button = tkinter.Button(text)
-
 canvas.grid(row=1, column=1)
-
 
 # display start button
 start_button = tkinter.Button(text="Start", highlightthickness=0, command=start_timer)

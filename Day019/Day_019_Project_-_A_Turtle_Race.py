@@ -1,4 +1,4 @@
-# THere is a bug where multiple turtle can become first
+# There is a bug where multiple turtle can become first
 import random
 import turtle
 
