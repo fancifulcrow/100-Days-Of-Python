@@ -33,3 +33,4 @@
 - Day 029 - Building a Password Manager
 - Day 030 - Errors, Exceptions and Saving JSON Data
 - Day 031 - Capstone Project - Flash Card Program
+- Day 032 - Email SMTP and the Datetime Module
