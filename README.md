@@ -36,3 +36,4 @@
 - Day 032 - Email SMTP and the Datetime Module
 - Day 033 - Application Programming Interface
 - Day 034 - The Trivia API and The Quizzler App
+- Day 035 - API Keys, Authentication, Environment Variables and Sending SMS
