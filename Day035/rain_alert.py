@@ -33,7 +33,7 @@ for hour in day["hour"]:
     if hour['condition']['code'] > 1100:
         with smtplib.SMTP("smtp.google.com") as connection:
             connection.starttls()
-            connection.login(user=MY_EMAIL, password=MY_EMAIL)
+            connection.login(user=MY_EMAIL, password=MY_PASSWORD)
             connection.sendmail(
                 from_addr=MY_EMAIL,
                 to_addrs=MY_EMAIL,
