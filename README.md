@@ -39,3 +39,4 @@
 - Day 035 - API Keys, Authentication, Environment Variables and Sending SMS
 - Day 036 - Stock News Monitoring Project
 - Day 037 - Advanced Authentication and POST/PUT/DELETE Requests
+- Day 038 - Exercise Tracking with Python and Google Sheets
