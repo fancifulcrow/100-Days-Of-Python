@@ -12,9 +12,6 @@ class DataManager:
         self.sheety_headers = {
             "Authorization": f"Bearer {self.sheety_token}",
         }
-        self.sheety_parameters = {
-
-        }
 
     
     def get_sheety_data(self):
@@ -25,7 +22,9 @@ class DataManager:
 
     def edit_row_iata_code(self, row_index, iata_code):
         edit = {
-            "iataCode" : iata_code,
+            "price" : {
+                "iataCode" : iata_code,
+            }
         }
         sheety_response = requests.put(url=f"{self.sheety_endpoint}/{row_index}", json=edit, headers=self.sheety_headers)
         sheety_response.raise_for_status()
