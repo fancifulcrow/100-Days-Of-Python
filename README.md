@@ -41,3 +41,4 @@
 - Day 037 - Advanced Authentication and POST/PUT/DELETE Requests
 - Day 038 - Exercise Tracking with Python and Google Sheets
 - Day 039 - CAPSTONE Part 1 - Cheap Flight Finder
+- Day 040 - CAPSTONE PArt 2 - Flight Club
