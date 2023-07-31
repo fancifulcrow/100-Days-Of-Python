@@ -43,3 +43,4 @@
 - Day 039 - CAPSTONE Part 1 - Cheap Flight Finder
 - Day 040 - CAPSTONE PArt 2 - Flight Club
 - Day 041 - Web Foundation - Introduction to HTML
+- Day 042 - Web Foundation - Intermediate HTML
