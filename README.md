@@ -45,3 +45,4 @@
 - Day 041 - Web Foundation - Introduction to HTML
 - Day 042 - Web Foundation - Intermediate HTML
 - Day 043 - Web Foundation - Introduction to CSS
+- Day 044 - Web Foundation - Intermediate CSS
