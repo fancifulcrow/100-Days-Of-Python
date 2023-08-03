@@ -47,3 +47,4 @@
 - Day 043 - Web Foundation - Introduction to CSS
 - Day 044 - Web Foundation - Intermediate CSS
 - Day 045 - Scraping the Web with BeautifulSoup
+- Day 046 - Musical Time Machine Project
