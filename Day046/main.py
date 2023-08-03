@@ -1,6 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
-import spotipy # The documentation for the spotipy API is awful
+import spotipy # The documentation for the spotify API is awful
 from spotipy.oauth2 import SpotifyOAuth
 from dotenv import load_dotenv
 import os

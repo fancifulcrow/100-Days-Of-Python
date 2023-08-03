@@ -41,10 +41,11 @@
 - Day 037 - Advanced Authentication and POST/PUT/DELETE Requests
 - Day 038 - Exercise Tracking with Python and Google Sheets
 - Day 039 - CAPSTONE Part 1 - Cheap Flight Finder
-- Day 040 - CAPSTONE PArt 2 - Flight Club
+- Day 040 - CAPSTONE Part 2 - Flight Club
 - Day 041 - Web Foundation - Introduction to HTML
 - Day 042 - Web Foundation - Intermediate HTML
 - Day 043 - Web Foundation - Introduction to CSS
 - Day 044 - Web Foundation - Intermediate CSS
 - Day 045 - Scraping the Web with BeautifulSoup
 - Day 046 - Musical Time Machine Project
+- Day 047 - Amazon Price Tracker Project
