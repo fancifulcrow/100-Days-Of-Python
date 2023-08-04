@@ -49,3 +49,4 @@
 - Day 045 - Scraping the Web with BeautifulSoup
 - Day 046 - Musical Time Machine Project
 - Day 047 - Amazon Price Tracker Project
+- Day 048 - Selenium Webdriver
