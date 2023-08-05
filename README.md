@@ -50,3 +50,4 @@
 - Day 046 - Musical Time Machine Project
 - Day 047 - Amazon Price Tracker Project
 - Day 048 - Selenium Webdriver
+- Day 049 - Automated Job Applications with Selenium
