@@ -53,3 +53,4 @@
 - Day 049 - Automated Job Applications with Selenium
 - Day 050 - Auto Tinder Bot
 - Day 051 - Complaining Twitter Bot
+- Day 052 - Instagram Follower Bot

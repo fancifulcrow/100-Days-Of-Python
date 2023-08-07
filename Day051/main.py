@@ -23,5 +23,4 @@ actual_down, actual_up = internet_speed_bot.get_internet_speed()
 print(f"Actual Download Speed: {actual_down}Mbps \nActual Upload Speed: {actual_up}Mbps")
 
 if actual_up < promised_up or actual_down < promised_down:
-    print("The Internet Speed is slower")
     internet_speed_bot.tweet_at_provider(twitter_email=TWITTER_EMAIL, twitter_password=TWITTER_PASSWORD)

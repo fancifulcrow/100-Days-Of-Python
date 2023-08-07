@@ -27,7 +27,8 @@ class InternetSpeedTwitterBot:
     
 
     def tweet_at_provider(self, twitter_email, twitter_password):
-        pass
+        print("The Internet Speed is slower")
+        
         # self.driver.get("https://twitter.com/i/flow/login")
         # time.sleep(5)
 
