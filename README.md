@@ -55,3 +55,4 @@
 - Day 051 - Complaining Twitter Bot
 - Day 052 - Instagram Follower Bot
 - Day 053 - Capstone Project - Data Entry Job Automation
+- Day 054 - Command Line, Python Decorators and Web Development with Flask
