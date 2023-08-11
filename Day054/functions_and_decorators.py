@@ -1,5 +1,3 @@
-## ********Day 54 Start**********
-
 # Python Functions as First Class Objects
 
 ## Functions can have inputs/functionality/output
