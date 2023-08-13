@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using Jinja</title>
+</head>
+<body>
+    <h1>Testing out Jinja</h1>
+    <p>{{5 * 6}}</p><!-- displays 30 on the webpage -->
+    <p>Random Number: {{num}}</p><!-- Using Jinja -->
+
+    <a href="{{url_for('blog')}}">View Blog</a><!-- Linking to other webpages -->
+    <br>
+    <a href="{{url_for('guess', name='Angela')}}">See the age and gender of Angela</a>
+
+    <footer>Copyright &copy; {{current_year}}</footer>
+</body>
+</html>

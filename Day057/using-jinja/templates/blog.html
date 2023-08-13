@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiline Statements with Jinja</title>
+</head>
+<body>
+    <h1>Blogs</h1>
+    {% for blog_post in posts: %}
+        <h2>{{blog_post["title"]}}</h2>
+        <h3><i>{{blog_post["subtitle"]}}</i></h3>
+        <p>{{blog_post["body"]}}</p>
+        {% if blog_post["id"] == 2: %}
+            <span><b><i>This was interesting!</i></b></span>
+        {% endif %}
+        <br><br>
+    {% endfor %}
+</body>
+</html>

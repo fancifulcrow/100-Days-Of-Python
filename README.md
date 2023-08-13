@@ -58,3 +58,4 @@
 - Day 054 - Command Line, Python Decorators and Web Development with Flask
 - Day 055 - Advanced Decorators, Rendering HTML, Parsing URLs and Flask Debugging
 - Day 056 - Static Files, HTML/CSS File Rendering and a Personal Site
+- Day 057 - URL Building and Templating with Jinja in Your Flask Application
