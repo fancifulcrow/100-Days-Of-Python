@@ -161,3 +161,5 @@ cython_debug/
 
 # Microsoft Edge WebDriver
 msedgedriver.exe
+
+.vscode/
