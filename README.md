@@ -60,3 +60,5 @@
 - Day 056 - Static Files, HTML/CSS File Rendering and a Personal Site
 - Day 057 - URL Building and Templating with Jinja in Your Flask Application
 - Day 058 - Web Foundation - Bootstrap
+- Day 059 - Blog Capstone Project - Adding Styling
+- Day 060 - POST Requests with Flask and HTML Forms

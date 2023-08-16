@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include "head.html" %}
+<body>
+    <section class="bg-white text-[#3F2E3E] w-full h-screen relative">
+        {% if msg_sent: %}
+        <div class="absolute top-0 w-full text-center bg-[#EFE1D1] text-[#3F2E3E] py-2">Successfully Sent</div>
+        {% endif %}
+        <div class="flex justify-center items-center w-full h-full">
+            <div class="md:max-w-5xl mx-8 py-4 flex md:justify-between justify-center w-full">
+                <div class="mb-8">
+                    <div class="mb-8">
+                        <h2 class="py-2 text-3xl">Send Messages</h2>
+                        <span class="text-xs text-zinc-400 font-bold uppercase">Send a message to me</span>
+                    </div>
+                    <form class="flex flex-col w-80" action="{{ url_for('contact') }}" method="POST">
+                        <input class="py-3 px-2 border-solid border-[#3F2E3E] border-2 rounded-md w-full mb-8" type="text" placeholder="Name" name="name">
+                        <input class="py-3 px-2 border-solid border-[#3F2E3E] border-2 rounded-md w-full mb-8" type="email" placeholder="Email" name="email">
+                        <input class="py-3 px-2 border-solid border-[#3F2E3E] border-2 rounded-md w-full mb-8" type="tel" placeholder="Phone Number" name="phone">
+                        <textarea class="py-3 px-2 border-solid border-[#3F2E3E] border-2 rounded-md w-full mb-8 h-36" placeholder="Message" name="message"></textarea>
+                        <input class="py-3 px-2 border-solid border-[#3F2E3E] border-2 rounded-md w-full mb-8 bg-[#3F2E3E] text-[#EFE1D1] hover:bg-[#EFE1D1] hover:text-[#3F2E3E]" type="submit" value="Login">
+                    </form>
+                </div>
+                <div class="ml-8 max-w-md h-full overflow-hidden rounded-md hidden md:block">
+                    <img src="../static/img/landing-img.jpg" alt="candles" class="object-cover">
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
