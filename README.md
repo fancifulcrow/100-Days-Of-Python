@@ -62,3 +62,4 @@
 - Day 058 - Web Foundation - Bootstrap
 - Day 059 - Blog Capstone Project - Adding Styling
 - Day 060 - POST Requests with Flask and HTML Forms
+- Day 061 - Building Advanced Forms using Flask-WTF
