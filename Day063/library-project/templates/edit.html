@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit {{ book.title }}</title>
+</head>
+<body>
+    <p>Title: {{ book.title }}</p>
+    <p>Author: {{ book.author }}</p>
+    <p>Current Rating: {{ book.rating }}</p>
+    
+    {% from 'bootstrap5/form.html' import render_form %}
+
+    {{ render_form(edit_form) }}
+    
+</body>
+</html>

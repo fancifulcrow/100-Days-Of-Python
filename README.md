@@ -63,3 +63,5 @@
 - Day 059 - Blog Capstone Project - Adding Styling
 - Day 060 - POST Requests with Flask and HTML Forms
 - Day 061 - Building Advanced Forms using Flask-WTF
+- Day 062 - Flask, WTForms, Bootstrap and CSV - Coffee & Wifi Project
+- Day 063 - Databases and with SQLite and SQLAlchemy
