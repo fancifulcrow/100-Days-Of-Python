@@ -4,7 +4,12 @@
 
 {% block content %}
 <div class="content">
-  <h1 class="heading">Movie Title</h1>
+  <h1 class="heading">{{ movie.title }}</h1>
     <p class="description">Edit Movie Rating</p>
+
+    {% from 'bootstrap4/form.html' import render_form %}
+
+    {{ render_form(edit_form) }}
+
   </div>
 {% endblock %}

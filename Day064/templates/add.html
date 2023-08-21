@@ -5,5 +5,8 @@
 {% block content %}
 <div class="content">
     <h1 class="heading">Add a Movie</h1>
+    {% from 'bootstrap4/form.html' import render_form %}
+
+    {{ render_form(add_form) }}
 </div>
 {% endblock %}
