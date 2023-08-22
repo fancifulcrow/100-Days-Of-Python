@@ -1,0 +1,54 @@
+# Web Design
+
+
+
+## Web Design Principles
+These are the 4 Pillars of Web Design
+- Color Theory
+- Typography
+- User Interface (UI) Design
+- User Experience (UX) Design
+
+
+### Color Theory
+Colors set the mood:
+- Red - Love, Energy, Intensity
+- Yellow - Joy, Intellect, Attention
+- Green - Freshness, Safety, Growth
+- Blue - Stability, Trust, Serenity
+- Purple - Royalty, Wealth, Femininity
+Combining Colors Palettes such as Analogous Colors, Complementary Colors e.t.c.
+Be careful when colouring text
+
+Visit: https://color.adobe.com/create/color-wheel or https://colorhunt.co/
+
+
+### Typography
+Fonts are important.
+Fonts are mainly divided into two main families: Serif and Sans-Serif.
+These families are further divided into sub families.
+For the Serif, the larger the difference between the thickest and thinest part of the letters of the font, the younger the font.
+Serif - Stable, Traditional, Respectable
+Sans-Serif - Sensible, Straightforward, Simple
+In the letters of a font you are looking for open shapes, ample intercharacter spacing, unambigious forms and varying proportions.
+Limit choosing multiple fonts. Just 2 is enough in a design.
+The fonts should have similar mood and time era while having contrast in "Serif-ness" and weights.
+Avoid Comic Sans, Kristen, Curlz, Viner, Papyrus and  Σψμβολ.
+
+
+### User Interface Design
+Manage attention with UI design. We manage:
+- Hierarchy: Making the most important information to be conveyed first. We can use color and size
+- Layout: How the web page is arranged. A length of block of text should not be too long or too short. Chop up the content into smaller pieces.
+- Alignment: How you position the elements on the screen relative to each other. Reduce the number of alignment points.
+- White Space: This refers to the empty space around elements. Space out the elements and do not pack them tightly to each other.
+- Audience: Design for your audience.
+
+
+### User Experience Design
+When Designing your web page check the following:
+- Simplicity
+- Consistency
+- Reading Patterns
+- All platform design
+- Do not use your power for evil

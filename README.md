@@ -65,3 +65,5 @@
 - Day 061 - Building Advanced Forms using Flask-WTF
 - Day 062 - Flask, WTForms, Bootstrap and CSV - Coffee & Wifi Project
 - Day 063 - Databases and with SQLite and SQLAlchemy
+- Day 064 - My Top 10 Movies Website
+- Day 065 - Introduction to Web Design
