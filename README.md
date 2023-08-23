@@ -1,6 +1,13 @@
 # 100-Days-Of-Python
  Angela Yu's 100 Days of Python Udemy Course
 
+## Sections
+- **Beginner** - Days 001 - 014
+- **Intermediate** - Days 015 - 031
+- **Intermediate+** - Days 032 - 058
+- **Advanced** - Days 059 - 081
+- **Professional** - Days 082 - 100
+
 ## Scheme of Work
 - Day 001 - Printing, Commenting, Debugging, String Manupulation and Variables
 - Day 002 - Data Types, Numbers, Operations, Type Conversions, f-Strings
@@ -67,3 +74,4 @@
 - Day 063 - Databases and with SQLite and SQLAlchemy
 - Day 064 - My Top 10 Movies Website
 - Day 065 - Introduction to Web Design
+- Day 066 - Build Your Own RESTful API
