@@ -65,9 +65,9 @@
 - Day 054 - Command Line, Python Decorators and Web Development with Flask
 - Day 055 - Advanced Decorators, Rendering HTML, Parsing URLs and Flask Debugging
 - Day 056 - Static Files, HTML/CSS File Rendering and a Personal Site
-- Day 057 - URL Building and Templating with Jinja in Your Flask Application
+- Day 057 - URL Building and Templating with Jinja (Flask) & Blog Capstone Project Part 1 - Templating
 - Day 058 - Web Foundation - Bootstrap
-- Day 059 - Blog Capstone Project - Adding Styling
+- Day 059 - Blog Capstone Project Part 2 - Adding Styling
 - Day 060 - POST Requests with Flask and HTML Forms
 - Day 061 - Building Advanced Forms using Flask-WTF
 - Day 062 - Flask, WTForms, Bootstrap and CSV - Coffee & Wifi Project
@@ -75,3 +75,5 @@
 - Day 064 - My Top 10 Movies Website
 - Day 065 - Introduction to Web Design
 - Day 066 - Build Your Own RESTful API
+- Day 067 - Blog Capstone Project Part 3 - RESTful Routing
+- Day 068 - Authentication with Flask

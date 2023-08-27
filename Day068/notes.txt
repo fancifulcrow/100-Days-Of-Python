@@ -1,0 +1,6 @@
+# Levels of Authentication
+
+- Level 1: Storing Passwords as plain text in our Database
+- Level 2: Encryption
+- Level 3: Hashing
+- Level 4: Hashing and Salting
