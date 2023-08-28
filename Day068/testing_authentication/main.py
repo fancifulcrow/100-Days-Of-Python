@@ -90,7 +90,7 @@ def login():
             flash('Password incorrect, please try again.')
             return redirect(url_for('login'))
         else:
-            # login if passwrod is correct
+            # login if password is correct
             login_user(user)
             return redirect(url_for('secrets'))
 
