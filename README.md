@@ -79,3 +79,4 @@
 - Day 068 - Authentication with Flask
 - Day 069 - Blog Capstone Project Part 4 - Adding Users
 - Day 070 - Git and Github - Introducing a Powerful Version Control System (VCS)
+- Day 071 - Publishing Our Flask Website
