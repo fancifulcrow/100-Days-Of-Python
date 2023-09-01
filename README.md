@@ -81,3 +81,6 @@
 - Day 070 - Git and Github - Introducing a Powerful Version Control System (VCS)
 - Day 071 - Publishing Our Flask Website
 - Day 072 - Data Exploration with Pandas
+- Day 073 - Data Visualisation with Matplotlib
+- Day 074 - Aggregate & Merge Data with Pandas
+- Day 075 - Resampling and Visualising Time Series
