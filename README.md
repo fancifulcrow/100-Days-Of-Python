@@ -84,3 +84,6 @@
 - Day 073 - Data Visualisation with Matplotlib
 - Day 074 - Aggregate & Merge Data with Pandas
 - Day 075 - Resampling and Visualising Time Series
+- Day 076 - Beautiful Plotly Charts
+- Day 077 - Computation with NumPy and N-Dimensional Arrays
+- Day 078 - Linear Regression and Data Visualisation with Seaborn
