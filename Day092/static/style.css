@@ -1,0 +1,26 @@
+.color-container{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.inner-container{
+    width: 100%;
+    max-width: 768px;
+    margin: 0px 8px;
+}
+
+.colors-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    padding: 40px 0px;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Color Palette Generator</title>
+    <link rel="stylesheet" href="static/style.css">
+    {{ bootstrap.load_css() }}
+</head>
+<body>
+    <div class="flex-container">
+        <div class="inner-container">
+            {% from 'bootstrap5/form.html' import render_form %}
+
+            <h1 style="text-align: center;">Image Color Palette Generator</h1>
+
+            {% if image_form: %}
+                {{ render_form(image_form, novalidate=True) }}
+            {% endif %}
+
+            {% if colors: %}
+            <h2 style="padding-top: 40px; text-align: center;">Results:</h2>
+                <div class="colors-list">
+                    {% for color in colors: %}
+                        <div>
+                            <div class="color-container" style="background-color: rgb({{ color.rgb.r }}, {{color.rgb.g }}, {{color.rgb.b}});"></div>
+                            <div>
+                                <p>rgb({{ color.rgb.r }}, {{ color.rgb.g }}, {{ color.rgb.b }})</p>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+                <a href="{{ url_for("home") }}">Choose another Image</a>
+            {% endif %}
+        </div>
+    </div>
+</body>
+</html>
