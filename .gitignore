@@ -164,3 +164,6 @@ msedgedriver.exe
 
 .vscode/
 *.db
+
+# delete later
+future/
