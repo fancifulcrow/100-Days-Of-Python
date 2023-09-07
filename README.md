@@ -87,3 +87,4 @@
 - Day 076 - Beautiful Plotly Charts
 - Day 077 - Computation with NumPy and N-Dimensional Arrays
 - Day 078 - Linear Regression and Data Visualisation with Seaborn
+- Day 079 - More with Plotly, Matplotlib & Seaborn
