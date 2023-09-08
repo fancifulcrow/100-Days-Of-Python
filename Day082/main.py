@@ -1,5 +1,4 @@
 from text_to_morse_code import text_to_morse_code
-import winsound
 
 text = input("Input a text you would like to convert to morse code?\n").lower()
 
