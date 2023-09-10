@@ -89,3 +89,7 @@
 - Day 078 - Linear Regression and Data Visualisation with Seaborn
 - Day 079 - More with Plotly, Matplotlib & Seaborn
 - Day 080 - t-Tests & Distributions
+- Day 081 - Capstone Project - Predict House Prices
+- Day 082 - Scripting - Text to Morse COde Converter
+- Day 083 - Web development - Portfolio Website
+- Day 084 - Scripting - Tic Tac Toe
