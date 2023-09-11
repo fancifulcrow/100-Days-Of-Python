@@ -94,3 +94,4 @@
 - Day 083 - Web development - Portfolio Website
 - Day 084 - Scripting - Tic Tac Toe
 - Day 085 - GUI - Image Watermarker
+- Day 086 - GUI - Typing Speed Test
