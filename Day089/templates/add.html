@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add TODO</title>
+    {{ bootstrap.load_css() }}
+</head>
+<body>
+    <div class="container">
+        <h1 class="my-4">Add Item</h1>
+
+        {% from 'bootstrap5/form.html' import render_form %}
+        {{ render_form(add_form, novalidate=True) }}
+    </div>
+</body>
+</html>
