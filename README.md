@@ -95,3 +95,17 @@
 - Day 084 - Scripting - Tic Tac Toe
 - Day 085 - GUI - Image Watermarker
 - Day 086 - GUI - Typing Speed Test
+- Day 087 - Game - Breakout
+- Day 088 - Web Development - Cafe and WiFi Website
+- Day 089 - Web Development - ToDo List
+- Day 090 - GUI - Disappearing Text Writing App
+- Day 091 - HTTP Requests & APIs - Convert PDF to Audiobook
+- Day 092 - Image Processing & Data Science - Image Colour Palette Generator
+- Day 093 - Web Scraping - Custom Web Scraper
+- Day 094 - GUI Automation - Automsted Google Dinosaur Game
+- Day 095 - Game - Space Invader
+- Day 096 - HTTP Requests & APIs - Custom API Based Website
+- Day 097 - Web Development - An Online Shop
+- Day 098 - Automation - Custom Automation
+- Day 099 - Data Science - Analyzing the Space Race
+- Day 100 - Data Science - Analyzing Police Brutality in the US
