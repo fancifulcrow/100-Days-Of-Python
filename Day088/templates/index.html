@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cafe&Wifi API</title>
+    {{ bootstrap.load_css() }}
+</head>
+<body>
+    {% include "header.html" %}
+    <div class="cover-container d-flex p-3 mx-auto flex-column text-dark">
+  
+        <main role="main" class="inner cover container text-center">
+          <h1 class="cover-heading">Cafes Near You</h1>
+          <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi recusandae provident cupiditate enim aliquid modi necessitatibus quibusdam quisquam esse rerum eius, accusantium, qui repudiandae officia nesciunt voluptates, unde nostrum quasi.</p>
+          <p class="lead">
+            <a href="{{ url_for('view_all_cafes') }}" class="btn btn-lg btn-dark">View Them</a>
+          </p>
+        </main>
+    </div>
+</body>
+</html>
