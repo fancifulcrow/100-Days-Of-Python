@@ -102,7 +102,7 @@
 - Day 091 - HTTP Requests & APIs - Convert PDF to Audiobook
 - Day 092 - Image Processing & Data Science - Image Colour Palette Generator
 - Day 093 - Web Scraping - Custom Web Scraper
-- Day 094 - GUI Automation - Automsted Google Dinosaur Game
+- Day 094 - GUI Automation - Automated Google Dinosaur Game
 - Day 095 - Game - Space Invader
 - Day 096 - HTTP Requests & APIs - Custom API Based Website
 - Day 097 - Web Development - An Online Shop
