@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    {{ bootstrap.load_css() }}
+</head>
+<body>
+    <h1 class="text-center py-2">Weather App</h1>
+    {% from 'bootstrap5/form.html' import render_form %}
+    <div class="container py-2">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-md-8 col-lg-6 col-xl-4">
+                {{ render_form(search_form, novalidate=True, form_type="inline", form_inline_classes="row row-cols-lg-auto g-3 align-items-center justify-content-center") }}
+            </div>
+        </div>
+    </div>
+
+    {% if weather_data: %}
+        <div class="container py-5 h-100">
+
+            <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-md-8 col-lg-6 col-xl-4">
+                {% if weather_data["error"] %}
+                    <div class="text-center">
+                        {{ weather_data["error"]["message"] }}
+                    </div>
+                {% else %}
+                <div class="card" style="color: #4B515D; border-radius: 35px;">
+                <div class="card-body p-4">
+        
+                    <div class="d-flex">
+                    <h6 class="flex-grow-1">{{ weather_data["location"]["name"] }}, {{ weather_data["location"]["country"] }}</h6>
+                    <h6>{{ weather_data["location"]["localtime"].split(" ")[1] }}</h6>
+                    </div>
+        
+                    <div class="d-flex flex-column text-center mt-5 mb-4">
+                    <h6 class="display-4 mb-0 font-weight-bold" style="color: #1C2331;"> {{ weather_data["current"]["temp_c"] }}°C </h6>
+                    <span class="small" style="color: #868B94">{{ weather_data["current"]["condition"]["text"] }}</span>
+                    </div>
+        
+                    <div class="d-flex align-items-center">
+                    <div class="flex-grow-1" style="font-size: 1rem;">
+                        <div><i class="fa-solid fa-wind" style="color: #868B94;"></i> <span class="ms-1"> {{ weather_data["current"]["wind_kph"] }} km/h
+                        </span></div>
+                        <div><i class="fa-solid fa-droplet" style="color: #868B94;"></i> <span class="ms-1"> {{ weather_data["current"]["humidity"] }}% </span>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="../static/weather_icons/{{time_of_day}}/{{ weather_data['current']['condition']['icon'].split('/')[-1] }}"
+                        width="64px">
+                    </div>
+                    </div>
+        
+                </div>
+                </div>
+
+                {% endif %}
+        
+            </div>
+            </div>
+        
+        </div>
+    {% endif %}
+
+    <div class="text-center pt-2">
+        Powered by <a href="https://www.weatherapi.com/" title="Free Weather API">WeatherAPI.com</a>
+    </div>
+
+</body>
+</html>
