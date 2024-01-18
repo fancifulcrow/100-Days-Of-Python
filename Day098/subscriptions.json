@@ -1,0 +1,17 @@
+[
+    {
+        "service": "Netflix",
+        "day": 20,
+        "website": "https://www.netflix.com/"
+    },
+    {
+        "service": "Brilliant",
+        "day": 18,
+        "website": "https://brilliant.org/"
+    },
+    {
+        "service": "Spotify",
+        "day":16,
+        "website": "https://open.spotify.com/"
+    }
+]
