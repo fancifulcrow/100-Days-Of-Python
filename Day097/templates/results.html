@@ -1,0 +1,30 @@
+{% include "header.html" %}
+<body>
+    <h1 class="home-heading">Search Results</h1>
+    <div class="container-fluid">
+        {% if results %}
+            <div class="row g-4">
+                {% for cover in results %}
+                    <div class="col-md-6 col-lg-3 col-sm-6">
+                        <a href="{{url_for('cover_detais', cover_id=cover.id)}}" class="text-decoration-none">
+                            <div class="card">
+                                <img src="{{ cover.image }}" class="card-img-top" alt="{{ cover.title }}">
+                                <div class="card-body">
+                                    <h5 class="card-title text-dark">{{ cover.title }}</h5>
+                                    <p class="card-text text-dark"><span class="canceled-price">Rs.1,299.00</span> {{ cover.price }}</p>
+                                    </a>
+                                    <p></p>
+                                    <a href="{{url_for('add_to_cart', cover_id=cover.id)}}">
+                                        <button class="btn btn-dark">Add to Cart</button>
+                                    </a>
+                                </div>
+                            </div>
+                    </div>
+                {% endfor %}
+            </div>
+        {% else %}
+        <p>No results found for '{{ query }}'</p>
+    </div>
+    {% endif %}
+ </body>
+</html>

@@ -1,0 +1,48 @@
+{% include "header.html" %}
+
+<body>
+
+    <h1 class="cart-heading">Your Cart</h1>
+
+    {% if items %}
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Cover</th>
+                    <th>Model</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for item in items %}
+                    <tr>
+                        <td>
+                            <a href="{{url_for('cover_detais', cover_id=item['cover'].id)}}" class="text-decoration-none" style="color: black;">
+                                <img src="{{ item['cover'].image }}" alt="{{ item['cover'].model }}" class="cart-image">
+                                {{ item['cover'].title }}
+                            </a>
+                        </td>
+                        <td>{{ item['cover'].model }}</td>
+                        <td>{{ item['cover_quantity'] }}</td>
+                        <td>{{ item['cover'].price }}</td>
+                        <td>
+                            <a href="{{url_for('delete_cover', cover_id=item['cover'].id)}}" class="text-danger" title="Remove from Cart">×</a>
+                        </td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        <p class="cart-total">
+            <span class="total-text">Total: </span>
+            ₹{{ total }}
+        </p>
+        <a href="{{url_for('checkout')}}">
+            <button class="btn btn-dark" id="cart-checkout">Checkout</button>
+        </a>
+    {% else %}
+        <p class="cart-no-item">Your cart is empty.</p>
+    {% endif %}
+
+</body>
+</html>

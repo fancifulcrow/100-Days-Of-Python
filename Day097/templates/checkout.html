@@ -1,0 +1,109 @@
+{% include "header.html" %}
+<body>
+    <h1 class="cart-heading">Checkout</h1>
+
+    <div class="cust-info">
+        <div class="cust-info-form">
+            <h2>Customer Information</h2>
+            <form action="/checkout" method="post">
+                <div class="cust-form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="cust-form-group">
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="email" required>
+                </div>
+
+                <div class="cust-form-group">
+                    <label for="address1">Flat, House.no., Building</label>
+                    <input type="text" id="address1" name="address1" required>
+                </div>
+
+                <div class="cust-form-group">
+                    <label for="address2">Area, Street, Sector, Village</label>
+                    <input type="text" id="address2" name="address2" required>
+                </div>
+
+                <div class="cust-form-group">
+                    <label for="pincode">Pincode</label>
+                    <input type="number" id="pincode" name="pincode" required>
+                </div>
+
+                <div class="cust-form-group">
+                    <label for="Town/City">Town/City</label>
+                    <input type="text" id="Town/City" name="Town/City" required>
+                </div>
+
+                <div class="cust-form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="text" id="phone" name="phone" required>
+                </div>
+
+                <div class="cust-form-group">
+                    <label for="state">State</label>
+                    <input type="text" id="state" name="state" required>
+                </div>
+
+                <div class="cust-form-group">
+                    <label for="countries">Select Country:</label>
+                    <select id="countries" name="countries">
+                        <option value="india">India</option>
+                    </select>
+                </div>
+
+                <!-- Order Summary -->
+                <h2 class="order-summ-head">Order Summary</h2>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Cover</th>
+                            <th>Model</th>
+                            <th>Quantity</th>
+                            <th>Price</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for item in items %}
+                            <tr>
+                                <td>
+                                    <a href="{{url_for('cover_detais', cover_id=item['cover'].id)}}" class="text-decoration-none" style="color: black;">
+                                        <img src="{{ item['cover'].image }}" alt="{{ item['cover'].model }}" class="cart-image">
+                                        {{ item['cover'].title }}
+                                    </a>
+                                </td>
+                                <td>{{ item['cover'].model }}</td>
+                                <td>{{ item['cover_quantity'] }}</td>
+                                <td>{{ item['cover'].price }}</td>
+                                <td>
+                                    <a href="{{url_for('delete_cover', cover_id=item['cover'].id)}}" class="text-danger" title="Remove from Cart">×</a>
+                                </td>
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+
+                <!-- Total Price -->
+                <p class="cart-total">
+                    <span class="total-text">Total: </span>
+                    ₹{{ total }}
+                </p>
+
+                <!-- Payment Type -->
+                <div class="cust-form-group">
+                    <label for="payment_type">Payment Type</label>
+                    <select id="payment_type" name="payment_type">
+                        <option value="cash_on_delivery">Cash on Delivery</option>
+                    </select>
+                </div>
+
+                <!-- Place Order Button -->
+                <button type="submit" class="btn btn-dark place-order" style="margin-left: 20px; margin-top: 10px;">Place Order</button>
+            </form>
+        </div>
+    </div>
+
+    {% include "footer.html" %}
+</body>
+</html>

@@ -1,0 +1,23 @@
+{% include "header.html" %}
+<body>
+    <form class="cover-form-container"  action="/add_cover" method="post">
+        
+        <label class="cover-form-label" for="title">Title</label>
+        <input class="cover-form-input" type="text" id="image" name="title" placeholder="Enter title">
+
+        <label class="cover-form-label" for="price">Price</label>
+        <input class="cover-form-input" type="text" id="price" name="price" placeholder="Enter Price">
+        
+        <label class="cover-form-label" for="phoneName">Phone Name</label>
+        <input class="cover-form-input" type="text" id="phoneName" name="phoneName" placeholder="Enter Phone Name">
+
+        <label class="cover-form-label" for="image">Image</label>
+        <input class="cover-form-input" type="text" id="image" name="image" placeholder="Enter image url">
+
+        <label class="cover-form-label" for="quantity">Quantity</label>
+        <input class="cover-form-input" type="number" id="quantity" name="quantity" placeholder="Enter Quantity (int)">
+
+        <button class="cover-form-button" type="submit">Submit</button>
+    </form>
+</body>
+</html>

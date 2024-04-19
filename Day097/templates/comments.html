@@ -1,0 +1,33 @@
+<body>
+    <h1 class="home-heading">What our customers say</h1>
+    <div class="comments-section">
+        {% for user in users %}
+            {% if user.comments %}
+                {% for comment in user.comments %}
+                    <div class="comment-box">
+                        <h3>{{ user.name }}</h3>
+                        <p>{{ comment.text }}</p>
+                    </div>
+                {% endfor %}
+            {% endif %}
+        {% endfor %}
+
+        {% if current_user.is_authenticated %}
+            <div class="comment-form-box">
+                <h3>Add Your Comment</h3>
+                <form action="/" method="post" enctype="multipart/form-data">
+                    <label for="userComment">Your Comment:</label>
+                    <textarea id="userComment" name="userComment" rows="4" required></textarea>
+                    <button type="submit" class="comment-button">Submit Comment</button>
+                </form>
+            </div>
+        {% else %}
+            <p>You need to be logged in to comment</p>
+        {% endif %}
+    </div>
+</body>
+</html>
+
+
+
+

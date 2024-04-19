@@ -1,0 +1,27 @@
+{% include "header.html" %}
+
+<div class="content">
+  <h1 class="home-heading">Welcome, {{ user.name }}!</h1>
+  {% if items %}
+    <h2 class="account-heading">Your Orders</h2>
+    <div class="order-container">
+      {% for order in items %}
+        <div class="order-item-container">
+          <p><strong>Date:</strong> {{ order.date }}</p>
+          <ul class="cover-list">
+            {% for cover in order.covers %}
+              <li class="cover-item">
+                <p><strong>Cover Title:</strong> {{ cover.title }}</p>
+                <div class="ordered-cover-image-container">
+                  <img src="{{ cover.image }}" alt="{{ cover.title }}" class="ordered-cover-image">
+                </div>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      {% endfor %}
+    </div>
+  {% else %}
+    <p class="no-order">You have not placed any orders yet!</p>
+  {% endif %}
+</div>

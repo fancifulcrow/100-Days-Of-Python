@@ -1,0 +1,12 @@
+{% include "header.html" %}
+<body>
+    <div class="not-log">
+        <h1 class="message-log">{{message}}</h1>
+        <a href="{{url_for('login')}}" id="custom-btn">
+            <button type="button" class="btn btn-dark text-white me-2">Login</button>
+        </a>
+        <a href="{{url_for('signup')}}"  id="custom-btn">
+            <button type="button" class="btn btn-outline-dark">Sign-up</button>
+        </a>
+    </div>
+</body>
