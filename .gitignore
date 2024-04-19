@@ -163,6 +163,3 @@ cython_debug/
 msedgedriver.exe
 
 .vscode/
-
-# delete later
-future/
